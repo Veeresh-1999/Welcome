@@ -11,20 +11,32 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <link rel="icon" href="./Images/v.png">
     <title>Veeresh S A</title>
-  
     <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .container1{
+            display: flex;
+            overflow: auto;
+            scroll-snap-type: x mandatory;
+        }
+
+        .container1 > .item  {
+            min-width: 100%;
+            scroll-snap-align: start;
+        }
+
+    </style>
 </head>
 <body>
-    <!--Preloadere-->
-    <div id="preloader"></div>
+        <!--Preloadere-->
+        <div id="preloader2"></div>
 
 
     <!--Navigation bar-->
 <header>
     <a  class="name" href="index.html"> Veeresh S A <img src="./Images/s.png" alt="varrified" width="25px"> </a>
-
-    <!--Condact Details-->
+    
 <div id="myNav1" class="overlay1">
+
     <div class="overlay-content1">
         <!--instagram-->
         <a href="https://www.instagram.com/veereshannagire/" target="_blank" >
@@ -48,12 +60,13 @@
 
         <!--close-->
         <a onclick="closeNav1()" style="margin-left: 10px;">
-          <img src="./Images/close.png" alt="instagram" width="55px" style="cursor: pointer;">
+            <img class="sm" src="./Images/close.png" alt="instagram" width="55px" style="cursor: pointer;">
         </a>
+
     </div>
   </div>
   
-<!--Desktop view-->
+   
 <nav>
     <ul class="nav__links">
         <li><a href="index.html">Home</a></li>
@@ -72,62 +85,38 @@
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
             <a href="project.html">Projects</a>
-
-
+            <a class="cta" href="#"><button>Contact</button></a>
         </div>
     </div>  
 <script type="text/javascript" src="mobile.js"></script>
-<!--Contact detAIKS-->
 
-<!--Profile HOME--->
-<div class="container">
-    <div class="box">
-        <div class="row align-items-center" style="gap:50px; margin-top: 15px;">
-            <div class="col-sm-5">
-                <img src="./Images/dp.jpg" class="box-img" width="240"> 
-            </div>
+<!--About HOME--->
 
-            <div class="col-sm-5">
-                <h2>Hello, &#128400;</h2>
-                <h1 class="nma">I'm Veeresh S A</h1>
-                <p style="font-size: 25px;"><b>Studying in Central University of Karnataka.</b>
-                <a href="https://www.cuk.ac.in/" style="color: black; font-size: 20px;" target="_blank">
-                <img src="./Images/cuk.jpg" alt="CUK" width="40px" style="border-radius: 50%;">
-                </a></p>
-                <p style="font-size: 25px;">
-                    <a href="https://goo.gl/maps/vsfuRipoc8PV3NSRA" target="_blank">
-                        <img src="./Images/placeholder.png" alt="location" width="40px"> 
-                    </a>kalaburagi, karnataka
-                </p>
-                <br>
-                <!--instagram-->
-                <a href="https://www.instagram.com/veereshannagire/" target="_blank" >
-                    <img class="sm" src="./Images/instagram.png" alt="instagram" width="55px">
-                </a>
+  <br>
+  <div class="container" style="gap: 10px;">
 
-                <!--Linked in -->
-                <a href="https://www.linkedin.com/in/veeresh-s-a-7993b81ab/" target="_blank" style="margin-left: 5px;">
-                    <img class="sm1" src="./Images/linkedin.png" alt="instagram" width="55px">
-                </a>
+    <div class="row text-center" style="align-items: center;
+    background: linear-gradient(#68cae7, #ddf2f8);
+    border-radius: 15px;">
+      <div class="col-sm-4">
+        <img src="./Images/pro.gif" alt="project image" width="450px" style="padding: 10px; border-radius: 18px;">
+      </div>
 
-                <!--Github -->
-                <a href="https://github.com/settings/profile" target="_blank"  style="margin-left: 5px;">
-                    <img class="sm" src="./Images/github.png" alt="instagram" width="55px">
-                </a>
+      <div class="col-sm-8" style="padding: 10px;">
+          <p>A Project Report on</p>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 30px;">
+            <b>“Classification of Onion based on the
+            Size using Machine Learning”</b></p>
 
-                <!--Mail -->
-                <a href="mailto:veereshsannagire@gmail.com" target="_blank"  style="margin-left: 5px;">
-                    <img class="sm1" src="./Images/email.png" alt="instagram" width="55px">
-                </a>
-            </div>
-            <div class="jumbotron">
-                <h1>Current Status :</h1>
-                <p style="font-size: 25px;">Working in <a href="https://reubro.com/" target="_blank" style="color: rgb(253, 0, 76);">Reubro International</a> as Intern.</p>
-              </div>
-              
-        </div>  
+            <p style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Project Period : 10-july-2021 to 12-December-2021</p>
 
+            <p style="font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+             Under the Guidance of : 
+             <a href="https://www.drparshuramkamble.com/" target="_blank" style="color: rgb(255, 0, 0);">Dr. Parshuram kamble</a>
+            </p>
+      </div>
     </div>
-</div>
+  </div>
+
 </body>
 </html>

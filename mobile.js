@@ -24,3 +24,8 @@ function openNav1() {
   window.addEventListener("load", function(){
       loader1.style.display = "none";
   })
+
+  var loader2 = document.getElementById("preloader2");
+  window.addEventListener("load", function(){
+      loader2.style.display = "none";
+  })

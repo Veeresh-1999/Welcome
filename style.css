@@ -149,6 +149,8 @@ button:hover{
     }
 }
 
+
+
 /*Body Home.index**/  
 .cuk{
     border-radius: 50%;
@@ -160,12 +162,11 @@ button:hover{
     width: 100%;
     background: linear-gradient(
         to bottom right,
-        #56C596,#CFF4D2
+        #56c59754,#cff4d269
     );
     padding: 20px;
     text-align: center;
-    margin: auto;
-    margin-top: 2%;
+    margin-top: 1%;
     border-radius: 5px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -174,7 +175,7 @@ button:hover{
 
 .box-img{
     border-radius: 5px;
-    margin-left: 25px;
+    margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -272,6 +273,16 @@ button:hover{
 #preloader1{
     display: flex;
     background: rgb(255, 255, 255) url(./Images/load2.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#preloader2{
+    display: flex;
+    background: rgb(255, 255, 255) url(./Images/load.gif) no-repeat center center;
     background-size: 50%;
     height: 100%;
     width: 100%;
