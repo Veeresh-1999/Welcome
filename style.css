@@ -9,7 +9,7 @@
 body{
     background: linear-gradient(
         to bottom right,
-        #93a5cf, #e4efe9
+        #acacad, #e4efe9
     );
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,8 +48,9 @@ header{
 }
 
 .name:hover{
-    background-size: 150% 150%;
-    background-position-x: left;
+    /* background-size: 150% 150%; */
+    color: aqua;
+    /* background-position-x: left; */
 }
 .nav__links{
     list-style: none;
@@ -163,10 +164,11 @@ button:hover{
 
 .box{
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     background: linear-gradient(
         to bottom right,
-        #56c59754,#cff4d269
+        #ffffff54,#cff4d269
     );
     padding: 20px;
     text-align: center;
@@ -293,3 +295,4 @@ button:hover{
     position: fixed;
     z-index: 100;
 }
+
